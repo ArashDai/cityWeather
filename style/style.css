@@ -1,0 +1,17 @@
+#header{
+    margin-top: .5em;
+}
+
+#searchBar{
+    margin:2em 0em;
+}
+
+td, th{
+    vertical-align:middle !important;
+}
+
+
+td:first-of-type{
+    height:200px;
+    width:250px;
+}
