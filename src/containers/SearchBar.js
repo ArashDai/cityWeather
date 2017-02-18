@@ -15,7 +15,6 @@ class SearchBar extends Component {
 
     componentWillMount(){
         this.props.getLocation().then((value) => {
-            console.log('value',value)
             this.props.fetchWeather(value.payload.data.city)
         })
         

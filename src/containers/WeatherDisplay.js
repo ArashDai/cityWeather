@@ -34,7 +34,6 @@ class WeatherDisplay extends Component {
 
         const toggle = () => {
             this.imperial===true?this.imperial=false:this.imperial=true;
-            console.log(this.imperial)
         }
 
         const current = {

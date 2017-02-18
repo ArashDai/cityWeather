@@ -30,9 +30,6 @@ td:first-of-type{
     margin-bottom:.5em;
 }
 
-#CurrentWeather{
-  /*  display:inline; */
-}
 
 #test{
     z-index: 1;
