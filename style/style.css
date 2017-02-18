@@ -1,7 +1,15 @@
+body{
+    /*background image from subtle-patterns.com*/
+    background-image:url('../assets/weather.png');
+    background-repeat:repeat;
+}
+
 #header{
     margin-top: .5em;
 }
-
+.HeaderWrap{
+    background:transparent;
+}
 #searchBar{
     margin:2em 0em;
 }
@@ -14,4 +22,45 @@ td, th{
 td:first-of-type{
     height:200px;
     width:250px;
+}
+
+
+
+#CurrentWeather{
+  /*  display:inline; */
+}
+
+#test{
+    z-index: 1;
+    margin:0em;
+    position: absolute;
+}
+#dayWrap{
+    /*z-index:10;*/
+    margin:0em;
+ 
+}
+.day{
+height:100%;
+width:20%;    
+border-right:1px solid lightgray;
+padding:.3em;
+}
+
+#forecast{
+    padding:0em !important;
+}
+
+#forecast svg{
+    top:0px;
+    /*z-index: -10;*/
+    height:75% !important;
+    width:100%;
+    padding-bottom:1em !important;
+}
+
+.City{
+    background-color:white;
+    margin-bottom:1em;
+    box-shadow: .2em .2em .3em  gray; 
 }

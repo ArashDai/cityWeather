@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import SearchBar from '../containers/SearchBar';
 import WeatherList from '../containers/WeatherList';
+import WeatherDisplay from '../containers/WeatherDisplay'
 
 export default class App extends Component {
   render() {
@@ -9,7 +10,7 @@ export default class App extends Component {
       <div>
         <h1 className='text-center' id='header'>City Weather</h1>
         <SearchBar/>
-        <WeatherList/>
+        <WeatherDisplay/>
       
       </div>
     );
