@@ -11,7 +11,7 @@
     "postinstall": "webpack -p",
     "start": "node server.js"
   },
-  "author": "",
+  "author": "Arash Dai",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.2.1",
