@@ -1,6 +1,6 @@
 import axios from 'axios';
 const APIKEY = 'ec670c362818c9f1f077e158761b7a3d';
-const ROOT_URL = `http://api.openweathermap.org/data/2.5/forecast?appid=${APIKEY}&units=imperial`
+const ROOT_URL = `https://api.openweathermap.org/data/2.5/forecast?appid=${APIKEY}&units=imperial`
 
 export const FETCH_WEATHER = 'FETCH_WEATHER';
 export const GET_LOCATION = 'GET_LOCATION';
@@ -16,7 +16,7 @@ export function fetchWeather(city){
 }
 
 export function getLocation(){
-    const URL = 'http://ipinfo.io/json'
+    const URL = 'https://ipinfo.io/json'
     const request = axios.get(URL);
     console.log('request',request)
     return{
