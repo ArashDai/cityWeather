@@ -2,7 +2,6 @@ import React from 'react';
 import Chart from './Chart';
 
 export default (props) => {
-    console.log(props.fiveDay)
     return(
         <div className='col-xs-12 col-sm-9' id='forecast' >
             <div className='row' id='dayWrap'>
